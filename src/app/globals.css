@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+
+    .myWidth {
+        @apply w-[700px];
+    }
+
+    .heading {
+        @apply text-xl font-medium text-blue-700 max-lg:text-lg max-md:text-sm;
+    }
+
+
+
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: burlywood !important;
+}
+
+.slick-prev {
+    left: 2% !important;
+    z-index: 1;
+
+}
+
+.slick-next {
+    right: 2% !important;
+    z-index: 1;
+}
+
+.active {
+    color: white;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
