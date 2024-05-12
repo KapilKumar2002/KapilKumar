@@ -38,12 +38,12 @@ const AboutCard = () => {
           Technology, I bring a wealth of experience and expertise to the table.
           With a strong foundation in Full-Stack Development and specialized
           skills in Flutter, I've honed my craft through hands-on experience,
-          including a 3-month internship in MERN stack development at Talentmonk
-          and an additional 7 months dedicated to mastering Flutter development.
-          My passion lies in creating seamless, user-centric solutions that push
-          the boundaries of technology. With a keen eye for detail and a
-          commitment to continuous learning, I am poised to tackle any challenge
-          in the ever-evolving landscape of software development.
+          including a 3-months internship in MERN stack development at
+          Talentmonk and an additional 7 months dedicated to mastering Flutter
+          development. My passion lies in creating seamless, user-centric
+          solutions that push the boundaries of technology. With a keen eye for
+          detail and a commitment to continuous learning, I am poised to tackle
+          any challenge in the ever-evolving landscape of software development.
         </div>
       </div>
       <hr></hr>
