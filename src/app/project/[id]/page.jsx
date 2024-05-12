@@ -30,7 +30,16 @@ function page() {
   }, []);
   return (
     project && (
-      <div className="md:w-[700px] w-full border p-4 rounded-xl">
+      <div className="md:w-[700px] w-full border p-4 rounded-xl relative">
+        {project["liveLink"] && (
+          <Link
+            href={project["liveLink"]}
+            target="_blank"
+            className="absolute right-0 m-2 px-2 py-1 rounded-lg bg-violet-300 text-white max-md:text-sm"
+          >
+            Go Live
+          </Link>
+        )}
         <div className="rounded-xl">
           <img
             src={project["projectImage"]}
