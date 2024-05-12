@@ -65,12 +65,16 @@ const Discussions = () => {
         {list.length >= 4 && (
           <div
             onClick={() => setShowAll(!showAll)}
-            className="cursor-pointer px-2 bg-white py-1 border text-violet-500 justify-center border-violet-400 w-32 rounded-lg absolute left-[50%] -translate-y-[50%] -translate-x-[50%] flex gap-2 items-center"
+            className="cursor-pointer px-2 bg-white py-1 border text-violet-500 justify-center border-violet-400 md:w-32 w-24 rounded-lg absolute left-[50%] -translate-y-[50%] -translate-x-[50%] flex gap-2 items-center"
           >
             <span className="font-semibold md:text-sm text-xs">
               {showAll ? "Show less" : "Show more"}
             </span>
-            {showAll ? <IoIosArrowUp /> : <IoIosArrowDown />}
+            {showAll ? (
+              <IoIosArrowUp className="max-md:text-sm" />
+            ) : (
+              <IoIosArrowDown className="max-md:text-sm" />
+            )}
           </div>
         )}
         <div className="h-full w-full flex items-center justify-end p-5">
