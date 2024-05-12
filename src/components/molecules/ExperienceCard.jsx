@@ -17,11 +17,9 @@ import { DiDart } from "react-icons/di";
 import { TbApi } from "react-icons/tb";
 import ShowMoreText from "react-show-more-text";
 import { IoLogoFirebase } from "react-icons/io5";
-import { BiLogoRedux, BiLogoTailwindCss } from "react-icons/bi";
+import { BiLogoRedux } from "react-icons/bi";
 const ExperienceCard = (props) => {
   const { experience } = props;
-
-  // Output: Jan, 2023
 
   const techStacks = {
     React: <SiMongodb className="text-green-700" />,
@@ -46,7 +44,7 @@ const ExperienceCard = (props) => {
           <FaBuildingShield className="text-2xl bg-gray-100 rounded-lg p-1" />
         </div>
         <div>
-          <div>{experience["company"]}</div>
+          <div className="max-md:text-sm">{experience["company"]}</div>
           <Link
             href={`${experience.companyLink}`}
             target="_blank"
@@ -57,14 +55,14 @@ const ExperienceCard = (props) => {
         </div>
       </div>
       <div className="flex flex-col gap-2">
-        <h1 className="text-xl font-medium text-blue-700">
+        <h1 className="text-xl font-medium text-blue-700 max-md:text-sm">
           {experience["jobTitle"]} -{" "}
           {experience["isIntern"] ? "Internship" : "Job"}
         </h1>
 
         <div>
           <ShowMoreText
-            lines={1}
+            lines={2}
             more="Show more"
             less="Show less"
             className="content-css w-full text-justify"
@@ -78,7 +76,7 @@ const ExperienceCard = (props) => {
                 {Object.keys(description)
                   .filter((key) => key !== "_id") // Filter out _id field
                   .map((key) => (
-                    <div key={key}>
+                    <div key={key} className="text-justify max-md:text-xs">
                       <strong>{key}:</strong> {description[key]}
                     </div>
                   ))}
@@ -87,7 +85,7 @@ const ExperienceCard = (props) => {
           </ShowMoreText>
         </div>
         <div className="mt-2 flex max-sm:flex-col gap-2">
-          <span className="text-black">Tech-Stacks : </span>
+          <span className="text-black max-md:text-sm">Tech-Stacks : </span>
           <div className="flex gap-4 flex-wrap">
             {experience["techStack"].map((tech) => (
               <div className="h-7 w-7 bg-gray-200 rounded-md flex justify-center items-center">

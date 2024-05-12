@@ -1,7 +1,5 @@
 "use client";
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import myPhoto from "../../../assets/images/myphoto.jpeg";
 import Link from "next/link";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Title from "@/components/molecules/Title";
@@ -80,7 +78,7 @@ function page() {
         <ul className="list-disc px-4">
           {project.references.map((line, index) => (
             <li className="text-blue-600 hover:underline md:font-bold md:text-lg text-sm">
-              <Link href={`${line}`} target="_blank">
+              <Link href={`${line}`} target="_blank" className="text-justify">
                 {line}
               </Link>
             </li>
