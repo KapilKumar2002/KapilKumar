@@ -16,6 +16,8 @@ import { RiFlutterFill } from "react-icons/ri";
 import { DiDart } from "react-icons/di";
 import { TbApi } from "react-icons/tb";
 import ShowMoreText from "react-show-more-text";
+import { IoLogoFirebase } from "react-icons/io5";
+import { BiLogoRedux, BiLogoTailwindCss } from "react-icons/bi";
 const ExperienceCard = (props) => {
   const { experience } = props;
 
@@ -33,6 +35,8 @@ const ExperienceCard = (props) => {
     Flutter: <RiFlutterFill className="text-cyan-700" />,
     Dart: <DiDart className="text-blue-500" />,
     "RESTful API": <TbApi />,
+    Firebase: <IoLogoFirebase className="text-yellow-500" />,
+    "Redux-Toolkit": <BiLogoRedux className="text-violet-700" />,
   };
 
   return (

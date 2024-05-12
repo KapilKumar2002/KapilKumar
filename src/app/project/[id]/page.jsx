@@ -79,7 +79,7 @@ function page() {
         <Title icon=<FaBookBookmark /> title={"References"} />
         <ul className="list-disc px-4">
           {project.references.map((line, index) => (
-            <li className="text-blue-600 hover:underline font-bold text-lg">
+            <li className="text-blue-600 hover:underline md:font-bold md:text-lg">
               <Link href={`${line}`} target="_blank">
                 {line}
               </Link>

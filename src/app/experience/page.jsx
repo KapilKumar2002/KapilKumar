@@ -3,7 +3,7 @@
 import ExperienceCard from "@/components/molecules/ExperienceCard";
 import React, { useState, useEffect } from "react";
 
-export default async function Experience() {
+export default function Experience() {
   var settings = {
     dots: true,
     infinite: true,

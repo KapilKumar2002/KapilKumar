@@ -9,37 +9,37 @@ const Discussions = () => {
     {
       question: "Why should we hire you?",
       answer:
-        "I am a quick learner of new technologies. I am backend developer as well as frontend developer.",
+        "I believe my combination of technical skills, experience, and passion for the MERN stack and Flutter along with Firebase makes me a strong candidate. I have a solid foundation in MongoDB, Express.js, React.js, and Node.js, with several successful projects under my belt where I've demonstrated my ability to build efficient and scalable applications. Additionally, my proactive approach to learning ensures that I stay updated with the latest technologies and best practices in the field. I'm confident that I can contribute effectively to your team and help drive the success of your projects.",
     },
     {
       question: "What is Kapil's strength?",
       answer:
-        "I am a quick learner of new technologies. I am backend developer as well as frontend developer.",
+        "My strength lies in my ability to quickly learn new technologies. For instance, I've learned Flutter and Firebase within just 1.5 months, React in 1 month, backend development in 1.5 months, and Python's Django REST Framework in 1 month as well. This rapid learning pace enables me to adapt swiftly to evolving technology landscapes and contribute effectively to projects requiring diverse skill sets.",
     },
     {
       question: "What are Kapil's weaknesses?",
       answer:
-        "I am a quick learner of new technologies. I am backend developer as well as frontend developer.",
+        "I've observed that when I encounter obstacles or bugs in a project, I tend to become deeply engrossed in finding a solution. This intense focus often makes it challenging for me to switch off until the issue is resolved. While I am driven by the desire to overcome challenges head-on, I've come to recognize the importance of taking regular breaks and not allowing work to consume me entirely. Striking a balance between problem-solving and self-care is crucial for maintaining long-term productivity and well-being.",
     },
-    {
-      question: "What are Kapil's short term goals?",
-      answer:
-        "I am a quick learner of new technologies. I am backend developer as well as frontend developer.",
-    },
-    {
-      question: "What are Kapil's long term goals?",
-      answer:
-        "I am a quick learner of new technologies. I am backend developer as well as frontend developer.",
-    },
+    // {
+    //   question: "What are Kapil's short term goals?",
+    //   answer:
+    //     "I am a quick learner of new technologies. I am backend developer as well as frontend developer.",
+    // },
+    // {
+    //   question: "What are Kapil's long term goals?",
+    //   answer:
+    //     "I am a quick learner of new technologies. I am backend developer as well as frontend developer.",
+    // },
     {
       question: "What are Kapil's achievements?",
       answer:
-        "I am a quick learner of new technologies. I am backend developer as well as frontend developer.",
+        "My achievements highlight my technical expertise, leadership, and community engagement. I hold certificates in Full Stack Flutter Application Development from SkillUp by SimpliLearn and Secure Application Development from Udemy, demonstrating proficiency in building robust and secure applications. Achieving 5-star ratings in C++ and Python on HackerRank and solving over 300 coding questions on platforms like GeeksforGeeks and LeetCode showcase my strong problem-solving skills. Additionally, I've mentored over 10 juniors in Flutter and provided support for Flutter and API integration to a company employee. As the coordinator of the Cultural Fest Mridang at IIIT UNA, I led 13 performance teams, organizing a successful event that promoted creativity and cultural exchange within the community. These achievements reflect my commitment to excellence and continuous learning across technical and non-technical domains.",
     },
     {
       question: "What are Kapil's hobbies?",
       answer:
-        "I am a quick learner of new technologies. I am backend developer as well as frontend developer.",
+        "My hobbies encompass a blend of creativity, technical skill, and personal enjoyment. Immense satisfaction comes from delving into coding projects and honing skills through regular practice. Crafting intricate frontends for mobile and web applications, along with diving into API development, provides a thrilling challenge in creating innovative and user-centric solutions. Beyond the realm of technology, there's a deep passion for music. Singing and listening to songs serve as sources of relaxation and avenues for self-expression and emotional connection. Engaging in these hobbies allows for striking a harmonious balance between technical pursuits and personal interests, fostering both professional growth and individual fulfillment.",
     },
   ];
   const [showAll, setShowAll] = useState(false);

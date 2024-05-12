@@ -18,7 +18,7 @@ const AboutCard = () => {
           <Typewriter
             className="max-md:text-xs"
             options={{
-              strings: ["FrontEnd Developer", "Flutter Developer"],
+              strings: ["Full Stack Developer", "Flutter Developer"],
               autoStart: true,
               loop: true,
             }}
@@ -30,15 +30,20 @@ const AboutCard = () => {
           className="xl:h-44 lg:h-60 max-lg:h-80 h-52 max-[450px]:h-44 rounded-md duration-700"
         ></Image>
         <div className="text-xs font-normal pt-4  text-gray-400">
-          Skilled <span className="font-bold text-gray-600">FrontEnd</span> and{" "}
-          <span className="font-bold text-gray-600 ">Flutter Developer</span>{" "}
-          with hands-on experience in designing dynamic interfaces and ensuring
-          app stability across Android devices. Proficient in backend
-          development with expertise in Node.js, Express.js, and MongoDB,
-          delivering scalable solutions for social media and e-commerce
-          applications. Demonstrated ability to implement secure user
-          authentication and data management, showcasing strong problem-solving
-          skills and commitment to client satisfaction.
+          Skilled <span className="font-bold text-gray-600">Full Stack</span>{" "}
+          and{" "}
+          <span className="font-bold text-gray-600 ">Flutter Developer. </span>{" "}
+          As a recent graduate from the Indian Institute of Information
+          Technology, Una Himachal Pradesh, with a B.Tech in Information
+          Technology, I bring a wealth of experience and expertise to the table.
+          With a strong foundation in Full-Stack Development and specialized
+          skills in Flutter, I've honed my craft through hands-on experience,
+          including a 3-month internship in MERN stack development at Talentmonk
+          and an additional 7 months dedicated to mastering Flutter development.
+          My passion lies in creating seamless, user-centric solutions that push
+          the boundaries of technology. With a keen eye for detail and a
+          commitment to continuous learning, I am poised to tackle any challenge
+          in the ever-evolving landscape of software development.
         </div>
       </div>
       <hr></hr>
