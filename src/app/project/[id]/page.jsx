@@ -41,7 +41,7 @@ function page() {
           />
         </div>
         <div className="flex justify-between pt-4">
-          <h1 className="text-xl font-bold text-cyan-500">
+          <h1 className="text-xl font-bold text-cyan-500 max-md:text-sm">
             {project["projectName"]}{" "}
           </h1>
           <Link
@@ -52,17 +52,17 @@ function page() {
             <FaArrowUpRightFromSquare className="text-blue-400" />
           </Link>
         </div>
-        <p className="font-semibold text-cyan-500 mb-2">
+        <p className="font-semibold text-cyan-500 mb-2 max-md:text-sm">
           {project["projectType"]} Project
         </p>
 
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 max-md:text-sm">
           Tech. Stack Used
           <div className="flex gap-3 flex-wrap">
             {project.techStack.map((tech, index) => (
               <span
                 key={index}
-                className="hover:bg-blue-200 bg-blue-100 hover:cursor-pointer border px-2 py-1 rounded-lg"
+                className="hover:bg-blue-200 bg-blue-100 hover:cursor-pointer border px-2 py-1 rounded-lg max-md:text-sm"
               >
                 {tech}
               </span>
@@ -70,7 +70,7 @@ function page() {
           </div>
         </div>
 
-        <ul className="list-disc p-4">
+        <ul className="list-disc p-4 max-md:text-xs">
           {project.description.map((line, index) => (
             <li> {line}</li>
           ))}
@@ -79,7 +79,7 @@ function page() {
         <Title icon=<FaBookBookmark /> title={"References"} />
         <ul className="list-disc px-4">
           {project.references.map((line, index) => (
-            <li className="text-blue-600 hover:underline md:font-bold md:text-lg">
+            <li className="text-blue-600 hover:underline md:font-bold md:text-lg text-sm">
               <Link href={`${line}`} target="_blank">
                 {line}
               </Link>
