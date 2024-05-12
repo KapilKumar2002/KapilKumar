@@ -18,7 +18,7 @@ const ExpandableCard = (props) => {
         >
           {question}
         </p>
-        <div className="sm:h-8 sm:w-8  text-xs border border-violet-400 rounded-md flex justify-center items-center">
+        <div className="sm:h-8 sm:w-8 max-sm:p-2  text-xs border border-violet-400 rounded-md flex justify-center items-center">
           {open ? (
             <IoIosArrowUp className="text-gray-600" />
           ) : (
