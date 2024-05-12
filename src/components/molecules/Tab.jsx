@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 
 const Tab = (props) => {
-  const { tab, index, active, setActive } = props;
+  const { tab, index } = props;
   const pathName = usePathname();
 
   return (

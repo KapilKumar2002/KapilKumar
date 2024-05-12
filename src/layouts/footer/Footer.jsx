@@ -78,7 +78,10 @@ const Footer = () => {
       </div>
       <hr />
       <div className="text-sm font-light text-textColor flex flex-col justify-center items-center gap-1 p-4">
-        <p>&copy; {currentYear} Vishal Virdi. All rights reserved.</p>
+        <p className="pb-2 text-center">
+          &copy; {currentYear} Developed by Kapil Kumar & Vishal Virdi using
+          Next.js and mongoDB. All rights reserved.
+        </p>
         <div className="pb-2 text-center">
           Unauthorized reproduction or distribution of this website's content is
           prohibited.
