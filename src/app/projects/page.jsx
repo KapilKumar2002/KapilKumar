@@ -26,7 +26,7 @@ const Projects = () => {
 
   return (
     projects && (
-      <div className="myWidth max-md:w-full duration-700">
+      <div className="myWidth max-sm:w-full duration-700">
         <div className="flex justify-between items-center">
           <Title icon={<GrDocument />} title={"Projects"} />
           {/* <div>
@@ -40,7 +40,10 @@ const Projects = () => {
           </div> */}
         </div>
         <div className="flex flex-col gap-4 ">
-          {projects && projects.map((data) => <ProjectCard project={data} />)}
+          {projects &&
+            projects.map((data, index) => (
+              <ProjectCard key={index} project={data} />
+            ))}
         </div>
       </div>
     )

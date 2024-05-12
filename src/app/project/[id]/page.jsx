@@ -39,7 +39,7 @@ function page() {
           />
         </div>
         <div className="flex justify-between pt-4">
-          <h1 className="text-xl font-bold text-cyan-500 max-md:text-sm">
+          <h1 className="text-xl font-bold text-cyan-500 max-sm:text-sm">
             {project["projectName"]}{" "}
           </h1>
           <Link
@@ -50,17 +50,17 @@ function page() {
             <FaArrowUpRightFromSquare className="text-blue-400" />
           </Link>
         </div>
-        <p className="font-semibold text-cyan-500 mb-2 max-md:text-sm">
+        <p className="font-semibold text-cyan-500 mb-2 max-sm:text-sm">
           {project["projectType"]} Project
         </p>
 
-        <div className="flex flex-col gap-2 max-md:text-sm">
+        <div className="flex flex-col gap-2 max-sm:text-sm">
           Tech. Stack Used
           <div className="flex gap-3 flex-wrap">
             {project.techStack.map((tech, index) => (
               <span
                 key={index}
-                className="hover:bg-blue-200 bg-blue-100 hover:cursor-pointer border px-2 py-1 rounded-lg max-md:text-sm"
+                className="hover:bg-blue-200 bg-blue-100 hover:cursor-pointer border px-2 py-1 rounded-lg max-sm:text-sm"
               >
                 {tech}
               </span>
@@ -68,7 +68,7 @@ function page() {
           </div>
         </div>
 
-        <ul className="list-disc p-4 max-md:text-xs">
+        <ul className="list-disc p-4 max-sm:text-xs">
           {project.description.map((line, index) => (
             <li> {line}</li>
           ))}

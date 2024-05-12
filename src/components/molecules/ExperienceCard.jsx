@@ -66,7 +66,7 @@ const ExperienceCard = (props) => {
             more="Show more"
             less="Show less"
             className="content-css w-full text-justify"
-            anchorClass="show-more-less-clickable"
+            anchorClass="show-more-less-clickable text-md"
             onClick={() => {}}
             expanded={false}
             truncatedEndingComponent={"... "}
@@ -87,8 +87,11 @@ const ExperienceCard = (props) => {
         <div className="mt-2 flex max-sm:flex-col gap-2">
           <span className="text-black max-md:text-sm">Tech-Stacks : </span>
           <div className="flex gap-4 flex-wrap">
-            {experience["techStack"].map((tech) => (
-              <div className="h-7 w-7 bg-gray-200 rounded-md flex justify-center items-center">
+            {experience["techStack"].map((tech, index) => (
+              <div
+                key={index}
+                className="h-7 w-7 bg-gray-200 rounded-md flex justify-center items-center"
+              >
                 {techStacks[tech]}
               </div>
             ))}

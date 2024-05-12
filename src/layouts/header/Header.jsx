@@ -23,11 +23,7 @@ const Header = () => {
     <div className="w-full">
       <div className="flex max-md:flex-col  gap-4  items-center p-4 duration-700">
         <div className="w-40 flex justify-center items-center">
-          <Image
-            src={brave}
-            alt="brave"
-            className="max-sm:h-10 object-fill w-10"
-          />
+          <Image src={brave} alt="brave" className="" />
         </div>
         <div className="md:h-12 h-9 md:w-[700px] duration-700 w-full rounded-2xl bg-white border shadow-xl flex items-center justify-between">
           <span className="pl-7 max-md:text-xs">Kapil Kumar</span>
