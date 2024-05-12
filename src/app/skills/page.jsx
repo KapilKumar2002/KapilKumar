@@ -6,7 +6,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa6";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
+import { SiRedux, SiReduxsaga, SiTailwindcss } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { RiShieldStarFill } from "react-icons/ri";
 import { HiShieldCheck } from "react-icons/hi2";
@@ -59,6 +59,10 @@ const page = () => {
           <div className="border p-2 rounded-lg flex flex-col justify-center items-center">
             <FaReact className="h-5 w-10" />
             React
+          </div>
+          <div className="border p-2 rounded-lg flex flex-col justify-center items-center">
+            <SiRedux className="h-5 w-10" />
+            Redux-Toolkit
           </div>
           <div className="border p-2 rounded-lg flex flex-col justify-center items-center">
             <TbBrandNextjs className="h-5 w-10" />
