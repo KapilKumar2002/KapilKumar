@@ -38,8 +38,8 @@ const ResumeCard = (props) => {
           lines={2}
           more="Show more"
           less="Show less"
-          className="content-css w-full text-justify"
-          anchorClass="show-more-less-clickable text-violet-400"
+          className="content-css w-full text-justify max-sm:text-sm"
+          anchorClass="show-more-less-clickable text-violet-400 max-md:text-xs"
           onClick={() => {}}
           expanded={false}
           truncatedEndingComponent={"... "}
