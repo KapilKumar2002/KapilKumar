@@ -11,7 +11,7 @@ const resumeCardData = {
     <IoDocumentTextOutline className="text-2xl bg-gray-100 rounded-lg p-1" />
   ),
   title: "Resume",
-  link: "en.Resume.org",
+  link: "https://bit.ly/3Wogki2",
   Name: "Kapil Kumar - Resume",
   boldText1: "A Full Stack Developer",
   check: false,
